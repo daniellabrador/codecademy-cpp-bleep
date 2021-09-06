@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 void ask_string();
 void locate_broccoli();
-void bleep_text();
+string bleep(string word, string sentence);
