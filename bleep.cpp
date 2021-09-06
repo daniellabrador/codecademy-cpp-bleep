@@ -12,8 +12,13 @@ int main(){
     cout<<"If you want to use a sample text, enter \"_broccoli\" (include underscore).\n";
     getline(cin, text);
 
-    cout<<"Enter word to be bleeped (suggested: broccoli): ";
-    cin>>word;
+    if (text=="_broccoli"){
+        cout<<"Enter word to be bleeped (suggested: broccoli): ";
+        cin>>word;
+    } else {
+        cout<<"Enter word to be bleeped: ";
+        cin>>word;
+    }
 
     cout<<"\n";
 
